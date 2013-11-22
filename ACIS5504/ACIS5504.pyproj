@@ -1250,6 +1250,7 @@
     <Content Include="event_manager\static\style.css" />
     <Content Include="event_manager\templates\event.html" />
     <Content Include="event_manager\templates\index.html" />
+    <Content Include="web.config" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Python Tools\Microsoft.PythonTools.Django.targets" />
   <ProjectExtensions>
