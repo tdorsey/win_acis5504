@@ -121,6 +121,7 @@
     </Interpreter>
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="event_manager\static\admin\css\base.css" />
     <Content Include="event_manager\static\admin\css\changelists.css" />
     <Content Include="event_manager\static\admin\css\dashboard.css" />
@@ -1251,6 +1252,66 @@
     <Content Include="event_manager\templates\event.html" />
     <Content Include="event_manager\templates\index.html" />
     <Content Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Data.Edm, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Name>Microsoft.Data.Edm</Name>
+      <AssemblyName>Microsoft.Data.Edm.dll</AssemblyName>
+      <HintPath>..\packages\Microsoft.Data.Edm.5.2.0\lib\net40\Microsoft.Data.Edm.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Data.OData, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Name>Microsoft.Data.OData</Name>
+      <AssemblyName>Microsoft.Data.OData.dll</AssemblyName>
+      <HintPath>..\packages\Microsoft.Data.OData.5.2.0\lib\net40\Microsoft.Data.OData.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Name>Microsoft.WindowsAzure.Configuration</Name>
+      <AssemblyName>Microsoft.WindowsAzure.Configuration.dll</AssemblyName>
+      <HintPath>..\packages\Microsoft.WindowsAzure.ConfigurationManager.2.0.1.0\lib\net40\Microsoft.WindowsAzure.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Storage, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Name>Microsoft.WindowsAzure.Storage</Name>
+      <AssemblyName>Microsoft.WindowsAzure.Storage.dll</AssemblyName>
+      <HintPath>..\packages\WindowsAzure.Storage.2.0.6.0\lib\net40\Microsoft.WindowsAzure.Storage.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+      <AssemblyName>
+      </AssemblyName>
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="System.Data.Services.Client">
+      <Name>System.Data.Services.Client</Name>
+      <AssemblyName>
+      </AssemblyName>
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="System.Spatial, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Name>System.Spatial</Name>
+      <AssemblyName>System.Spatial.dll</AssemblyName>
+      <HintPath>..\packages\System.Spatial.5.2.0\lib\net40\System.Spatial.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.Xml</Name>
+      <AssemblyName>
+      </AssemblyName>
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Name>System.Xml.Linq</Name>
+      <AssemblyName>
+      </AssemblyName>
+      <HintPath>
+      </HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Python Tools\Microsoft.PythonTools.Django.targets" />
   <ProjectExtensions>

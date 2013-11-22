@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ACIS5504", "ACIS5504\ACIS5504.pyproj", "{8BDF7480-18C9-4945-81FC-6A353A1C05EC}"
 EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "ACIS5504.Azure", "ACIS5504.Azure\ACIS5504.Azure.ccproj", "{1D122807-1A23-44E6-9A52-2118279A8D30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{8BDF7480-18C9-4945-81FC-6A353A1C05EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BDF7480-18C9-4945-81FC-6A353A1C05EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BDF7480-18C9-4945-81FC-6A353A1C05EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D122807-1A23-44E6-9A52-2118279A8D30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D122807-1A23-44E6-9A52-2118279A8D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D122807-1A23-44E6-9A52-2118279A8D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D122807-1A23-44E6-9A52-2118279A8D30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
