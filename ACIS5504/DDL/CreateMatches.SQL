@@ -1,3 +1,4 @@
+BEGIN TRANSACTION
 INSERT INTO event_manager_match(result,event_id,round_id,player1_id,player2_id,player1_wins,player2_wins,games) VALUES(1,98,9,1,83,3,3,5);
 INSERT INTO event_manager_match(result,event_id,round_id,player1_id,player2_id,player1_wins,player2_wins,games) VALUES(2,51,1,41,38,1,2,4);
 INSERT INTO event_manager_match(result,event_id,round_id,player1_id,player2_id,player1_wins,player2_wins,games) VALUES(1,19,10,57,72,3,2,4);
@@ -98,3 +99,4 @@ INSERT INTO event_manager_match(result,event_id,round_id,player1_id,player2_id,p
 INSERT INTO event_manager_match(result,event_id,round_id,player1_id,player2_id,player1_wins,player2_wins,games) VALUES(1,47,1,37,89,2,4,1);
 INSERT INTO event_manager_match(result,event_id,round_id,player1_id,player2_id,player1_wins,player2_wins,games) VALUES(0,17,4,19,3,3,3,5);
 INSERT INTO event_manager_match(result,event_id,round_id,player1_id,player2_id,player1_wins,player2_wins,games) VALUES(0,26,10,48,21,3,3,5);
+COMMIT

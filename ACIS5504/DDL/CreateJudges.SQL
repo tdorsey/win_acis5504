@@ -1,3 +1,4 @@
+BEGIN TRANSACTION
 INSERT INTO event_manager_judge(player_id,level,certified_until) VALUES(78,4,'05/09/2001');
 INSERT INTO event_manager_judge(player_id,level,certified_until) VALUES(80,5,'08/17/2005');
 INSERT INTO event_manager_judge(player_id,level,certified_until) VALUES(65,4,'11/25/2002');
@@ -36,3 +37,4 @@ INSERT INTO event_manager_judge(player_id,level,certified_until) VALUES(73,3,'10
 INSERT INTO event_manager_judge(player_id,level,certified_until) VALUES(6,1,'10/28/2006');
 INSERT INTO event_manager_judge(player_id,level,certified_until) VALUES(81,3,'01/02/2011');
 INSERT INTO event_manager_judge(player_id,level,certified_until) VALUES(98,1,'11/17/1998');
+COMMIT

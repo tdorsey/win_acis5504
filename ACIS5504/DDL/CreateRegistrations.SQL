@@ -1,3 +1,4 @@
+BEGIN TRANSACTION
 INSERT INTO event_manager_registration(event_id,player_id,dropped,dropped_round) VALUES(34,96,0,4);
 INSERT INTO event_manager_registration(event_id,player_id,dropped,dropped_round) VALUES(90,5,1,7);
 INSERT INTO event_manager_registration(event_id,player_id,dropped,dropped_round) VALUES(91,74,0,15);
@@ -98,3 +99,4 @@ INSERT INTO event_manager_registration(event_id,player_id,dropped,dropped_round)
 INSERT INTO event_manager_registration(event_id,player_id,dropped,dropped_round) VALUES(29,38,1,15);
 INSERT INTO event_manager_registration(event_id,player_id,dropped,dropped_round) VALUES(91,42,0,11);
 INSERT INTO event_manager_registration(event_id,player_id,dropped,dropped_round) VALUES(21,6,0,7);
+COMMIT

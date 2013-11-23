@@ -1,3 +1,4 @@
+BEGIN TRANSACTION
 INSERT INTO event_manager_event(date,description,location,level_id,num_rounds,format,head_judge_id) VALUES('10/11/2010','ante. Vivamus','Knoxville',1,9,'Modern',12);
 INSERT INTO event_manager_event(date,description,location,level_id,num_rounds,format,head_judge_id) VALUES('02/16/2010','nec luctus','Seymour',1,1,'Block',98);
 INSERT INTO event_manager_event(date,description,location,level_id,num_rounds,format,head_judge_id) VALUES('12/06/2011','egestas. Aliquam','Morristown',2,7,'Standard',42);
@@ -98,3 +99,4 @@ INSERT INTO event_manager_event(date,description,location,level_id,num_rounds,fo
 INSERT INTO event_manager_event(date,description,location,level_id,num_rounds,format,head_judge_id) VALUES('01/29/2010','velit. Aliquam','Morristown',2,10,'Block',83);
 INSERT INTO event_manager_event(date,description,location,level_id,num_rounds,format,head_judge_id) VALUES('10/01/2010','varius. Nam','Morristown',6,7,'Draft',58);
 INSERT INTO event_manager_event(date,description,location,level_id,num_rounds,format,head_judge_id) VALUES('09/29/2010','turpis nec','Seymour',2,8,'Legacy',32);
+COMMIT
