@@ -109,8 +109,25 @@ class Registration(models.Model):
     player = models.ForeignKey(Player)
     dropped = models.NullBooleanField(blank=True, null=True)
     dropped_round = models.IntegerField(blank=True, null=True)
+    def player_is_judging_event(self):
+        player_is_head_judge = False
+        player_is_floor_judge = False
+        eventQS = Event.objects.filter(event_id=self.event.event_id).prefetch_related('head_judge', 'judges')
+        event = eventQS.get(event_id=self.event.event_id)
+        if (event.head_judge.player_id == self.player.person_id):
+            player_is_head_judge = True
+        
+        #check floor judges
+        player_is_floor_judge = event.judges.filter(player_id=self.player.person_id).exists()
+        
+        return player_is_head_judge or player_is_floor_judge
+    
     def __unicode__(self):
         return u'%s %s' % (self.event, self.player)
+    def clean(self):
+            #Don't allow judges to register for events they run
+        if self.player_is_judging_event():
+            raise ValidationError(self.player.first_name + " "  + self.player.last_name + " is judging event " + self.event.description)
 
 class RegistrationAdmin(admin.ModelAdmin):
     list_display = ('event', 'player')
