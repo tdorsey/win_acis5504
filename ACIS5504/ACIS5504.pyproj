@@ -7,6 +7,13 @@
     <RootNamespace>ACIS5504</RootNamespace>
     <InterpreterId>{9226e404-7281-4c10-8322-7993b765e804}</InterpreterId>
     <InterpreterVersion>2.7</InterpreterVersion>
+    <CommandLineArguments>
+    </CommandLineArguments>
+    <InterpreterPath />
+    <InterpreterArguments />
+    <DjangoSettingsModule>$(MSBuildProjectName).settings</DjangoSettingsModule>
+    <WebBrowserUrl />
+    <WebBrowserPort />
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -1239,7 +1246,6 @@
     <Content Include="event_manager\static\style.css" />
     <Content Include="event_manager\templates\event.html" />
     <Content Include="event_manager\templates\index.html" />
-    <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Data.Edm, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">

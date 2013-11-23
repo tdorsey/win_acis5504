@@ -2479,3 +2479,9 @@ X:\Visual Studio 2010\Common7\IDE\Extensions\Microsoft\Python Tools for Visual S
 2013-11-22T17:31:27: Analysis complete
 2013-11-22T17:31:27: Saving group "X:\ACIS5504\ACIS5504\env\Lib\site-packages\sql_server"
 2013-11-22T17:31:27: End of group "X:\ACIS5504\ACIS5504\env\Lib\site-packages\sql_server"
+
+2013-11-22T22:43:41: Start analysis
+2013-11-22T22:43:41: Deleting 0 files
+
+2013-11-22T22:43:44: Start analysis
+2013-11-22T22:43:44: Deleting 0 files

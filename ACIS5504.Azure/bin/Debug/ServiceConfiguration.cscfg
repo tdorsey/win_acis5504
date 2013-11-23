@@ -12,7 +12,7 @@
   <Role name="ACIS5504">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=acis5504;AccountKey=pJzNZK2wT0wv8UsusQlXXs0OXjCw5yLQDRABVVopPoC+EBelwCxNzD/iWnGkDDKIkx6///kvXP8MSoOXquw3QQ==" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>
