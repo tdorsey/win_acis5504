@@ -111,12 +111,14 @@
     <Folder Include="event_manager\static\djfrontend\js\twbs\" />
     <Folder Include="event_manager\static\djfrontend\js\twbs\3.0.0\" />
     <Folder Include="event_manager\templates\" />
+    <Folder Include="DDL\" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include="DDL\CreatePlayers.SQL" />
     <Content Include="event_manager\static\admin\css\base.css" />
     <Content Include="event_manager\static\admin\css\changelists.css" />
     <Content Include="event_manager\static\admin\css\dashboard.css" />
@@ -1246,6 +1248,7 @@
     <Content Include="event_manager\static\style.css" />
     <Content Include="event_manager\templates\event.html" />
     <Content Include="event_manager\templates\index.html" />
+    <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Data.Edm, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
